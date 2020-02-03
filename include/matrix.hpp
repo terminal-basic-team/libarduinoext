@@ -1,6 +1,7 @@
 /*
  * ArduinoExt is a set of utility libraries for Arduino
- * Copyright (C) 2016, 2017 Andrey V. Skvortsov <starling13@mail.ru>
+ * Copyright (C) 2016-2018 Andrey V. Skvortsov <starling13@mail.ru>
+ * Copyright (C) 2019,2020 Terminal-BASIC team
  *
  * This program is free software: is free software: you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public License
@@ -54,9 +55,8 @@ std::cout << std::endl;
 template <typename T>
 Package(Matricies)
 {
-
 	EXT_PACKAGE(Matricies)
-		public:
+public:
 #define elm(d,m,n) (d[m*N+n])
 	/**
 	 * @brief In-place transposiion of the matrix
@@ -220,7 +220,8 @@ Package(Matricies)
 		return true;
 #undef A
 #undef B
+#undef elm
 	}
 };
 
-#endif
+#endif // MATRIX_HPP

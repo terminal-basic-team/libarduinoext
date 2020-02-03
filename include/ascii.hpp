@@ -1,6 +1,6 @@
 /*
  * ArduinoExt is a set of utility libraries for Arduino
- * Copyright (C) 2016-2018 Andrey V. Skvortsov <starling13@mail.ru>
+ * Copyright (C) 2016-2020 Andrey V. Skvortsov <starling13@mail.ru>
  *
  * This program is free software: is free software: you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public License
@@ -46,6 +46,7 @@ enum class ASCII : uint8_t
 	DLE = 0x10, // Data link escape
 	NAK = 0x15,
 	SYN = 0x16,
+	ETB = 0x17,
 	CAN = 0x18,
 	ESC = 0x1B,
 	SPACE = ' ',
