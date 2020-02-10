@@ -111,7 +111,8 @@ public:
 	public:
 		size_t write(uint8_t) override;
 	};
-	
+};
+
 inline VT100::TextAttr& operator |= (VT100::TextAttr& left, VT100::TextAttr right)
 {
 	reinterpret_cast<uint8_t&>(left) |= uint8_t(right);
@@ -123,7 +124,6 @@ inline VT100::TextAttr& operator &= (VT100::TextAttr& left, VT100::TextAttr righ
 	reinterpret_cast<uint8_t&>(left) &= uint8_t(right);
 	return left;
 }
-};
 
 #endif // VT100_HPP
 
