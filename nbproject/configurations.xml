@@ -15,6 +15,7 @@
       <itemPath>include/liquidcrystalprint.hpp</itemPath>
       <itemPath>include/math.hpp</itemPath>
       <itemPath>include/matrix.hpp</itemPath>
+      <itemPath>include/sdlvt100print.hpp</itemPath>
       <itemPath>include/seriallight.hpp</itemPath>
       <itemPath>include/stdlib.h</itemPath>
       <itemPath>include/types.hpp</itemPath>
@@ -25,6 +26,7 @@
       <itemPath>src/bytearray.cpp</itemPath>
       <itemPath>src/liquidcrystalprint.cpp</itemPath>
       <itemPath>src/lldiv.c</itemPath>
+      <itemPath>src/sdlvt100print.cpp</itemPath>
       <itemPath>src/seriallight.cpp</itemPath>
       <itemPath>src/vt100.cpp</itemPath>
     </logicalFolder>
@@ -72,7 +74,7 @@
             <pElem>../libarduinoemulator/include</pElem>
             <pElem>${ARDUINO_PATH}/hardware/arduino/avr/cores/arduino</pElem>
           </incDir>
-          <commandLine>`pkg-config --cflags posixcpp` -std=gnu++11</commandLine>
+          <commandLine>`pkg-config --cflags posixcpp` -std=gnu++11 `pkg-config --cflags SDL2_ttf`</commandLine>
           <warningLevel>2</warningLevel>
         </ccTool>
         <archiverTool>
@@ -128,6 +130,8 @@
       </item>
       <item path="include/matrix.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/sdlvt100print.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/seriallight.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/stdlib.h" ex="false" tool="3" flavor2="0">
@@ -141,6 +145,8 @@
       <item path="src/arduino_logger.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/bytearray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/vt100.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -227,6 +233,8 @@
       </item>
       <item path="include/matrix.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/sdlvt100print.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/seriallight.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/stdlib.h" ex="false" tool="3" flavor2="0">
@@ -244,6 +252,8 @@
       <item path="src/liquidcrystalprint.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/lldiv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/seriallight.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -332,6 +342,8 @@
       </item>
       <item path="include/matrix.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/sdlvt100print.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/seriallight.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/stdlib.h" ex="false" tool="3" flavor2="0">
@@ -349,6 +361,8 @@
       <item path="src/liquidcrystalprint.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/lldiv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/seriallight.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -437,6 +451,8 @@
       </item>
       <item path="include/matrix.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/sdlvt100print.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/seriallight.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/stdlib.h" ex="false" tool="3" flavor2="0">
@@ -454,6 +470,8 @@
       <item path="src/liquidcrystalprint.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/lldiv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/seriallight.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -539,6 +557,8 @@
       </item>
       <item path="include/matrix.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/sdlvt100print.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/seriallight.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/stdlib.h" ex="false" tool="3" flavor2="0">
@@ -556,6 +576,8 @@
       <item path="src/liquidcrystalprint.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/lldiv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/seriallight.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -642,6 +664,8 @@
       </item>
       <item path="include/matrix.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/sdlvt100print.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/seriallight.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/stdlib.h" ex="false" tool="3" flavor2="0">
@@ -659,6 +683,8 @@
       <item path="src/liquidcrystalprint.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/lldiv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/seriallight.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -746,6 +772,8 @@
       </item>
       <item path="include/matrix.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/sdlvt100print.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/seriallight.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/stdlib.h" ex="false" tool="3" flavor2="0">
@@ -763,6 +791,8 @@
       <item path="src/liquidcrystalprint.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/lldiv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/seriallight.cpp" ex="false" tool="1" flavor2="8">
       </item>
@@ -831,6 +861,8 @@
       </item>
       <item path="include/matrix.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/sdlvt100print.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/seriallight.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/stdlib.h" ex="false" tool="3" flavor2="0">
@@ -844,6 +876,8 @@
       <item path="src/arduino_logger.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/bytearray.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/vt100.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -930,6 +964,8 @@
       </item>
       <item path="include/matrix.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/sdlvt100print.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/seriallight.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/stdlib.h" ex="false" tool="3" flavor2="0">
@@ -947,6 +983,8 @@
       <item path="src/liquidcrystalprint.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/lldiv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/seriallight.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -1009,6 +1047,8 @@
       </item>
       <item path="include/math.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/sdlvt100print.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/seriallight.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/stdlib.h" ex="false" tool="3" flavor2="0">
@@ -1026,6 +1066,8 @@
       <item path="src/liquidcrystalprint.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/lldiv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/seriallight.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -1113,6 +1155,8 @@
       </item>
       <item path="include/matrix.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/sdlvt100print.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/seriallight.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/stdlib.h" ex="false" tool="3" flavor2="0">
@@ -1128,6 +1172,8 @@
       <item path="src/bytearray.cpp" ex="false" tool="1" flavor2="8">
       </item>
       <item path="src/lldiv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/seriallight.cpp" ex="false" tool="1" flavor2="8">
       </item>
@@ -1203,6 +1249,8 @@
       </item>
       <item path="include/matrix.hpp" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="include/sdlvt100print.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="include/seriallight.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="include/stdlib.h" ex="false" tool="3" flavor2="0">
@@ -1220,6 +1268,8 @@
       <item path="src/liquidcrystalprint.cpp" ex="false" tool="1" flavor2="8">
       </item>
       <item path="src/lldiv.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/seriallight.cpp" ex="false" tool="1" flavor2="8">
       </item>
