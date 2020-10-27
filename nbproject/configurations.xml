@@ -471,8 +471,6 @@
       </item>
       <item path="src/lldiv.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="src/seriallight.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/vt100.cpp" ex="false" tool="1" flavor2="0">
