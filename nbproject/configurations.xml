@@ -161,7 +161,7 @@
     </conf>
     <conf name="Arduino_nano328" type="3">
       <toolsSet>
-        <compilerSet>Arduino-1.8.10|GNU</compilerSet>
+        <compilerSet>Arduino-1.8.13|GNU</compilerSet>
         <dependencyChecking>true</dependencyChecking>
         <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
@@ -263,8 +263,6 @@
       </item>
       <item path="src/lldiv.c" ex="false" tool="0" flavor2="0">
       </item>
-      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
-      </item>
       <item path="src/seriallight.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/vt100.cpp" ex="false" tool="1" flavor2="0">
@@ -274,7 +272,7 @@
     </conf>
     <conf name="Arduino_nano168" type="3">
       <toolsSet>
-        <compilerSet>Arduino-1.8.10|GNU</compilerSet>
+        <compilerSet>Arduino-1.8.13|GNU</compilerSet>
         <dependencyChecking>true</dependencyChecking>
         <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
@@ -286,7 +284,7 @@
           </incDir>
           <commandLine>-Os -Wextra -std=gnu11 -ffunction-sections -flto -fno-fat-lto-objects -fdata-sections -MMD -mmcu=atmega168 -mcall-prologues</commandLine>
           <preprocessorList>
-            <Elem>ARDUINO=10810</Elem>
+            <Elem>ARDUINO=10813</Elem>
             <Elem>ARDUINO_ARCH_AVR</Elem>
             <Elem>ARDUINO_AVR_NANO</Elem>
             <Elem>F_CPU=16000000L</Elem>
@@ -305,7 +303,7 @@
           </incDir>
           <commandLine>-Os -Wextra -std=gnu++11 -flto -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega168 -fno-rtti -mcall-prologues</commandLine>
           <preprocessorList>
-            <Elem>ARDUINO=10810</Elem>
+            <Elem>ARDUINO=10813</Elem>
             <Elem>ARDUINO_ARCH_AVR</Elem>
             <Elem>ARDUINO_AVR_NANO</Elem>
             <Elem>F_CPU=16000000L</Elem>
@@ -375,8 +373,6 @@
       <item path="src/liquidcrystalprint.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/lldiv.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="src/sdlvt100print.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="src/seriallight.cpp" ex="false" tool="1" flavor2="0">
       </item>

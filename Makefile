@@ -44,7 +44,7 @@
 # NOCDDL
 
 # Environment
-ARDUINO_PATH=/opt/arduino-1.8.10
+ARDUINO_PATH=/opt/arduino-1.8.13
 # build
 build: .build-post
 
